@@ -12,4 +12,5 @@ Digital Marketing Website
 
 ### Authors
 Hayk - tg: [@Haykido](https://t.me/Haykido) - [Hayk.Pogosyan.03@yandex.ru](mailto:Hayk.Pogosyan.03@yandex.ru) - [GitHub](https://github.com/Hayk149)
+
 Tim - tg: [@timuryanst](https://t.me/timuryanst) - [timu.ryanst@gmail.com](mailto:timu.ryanst@gmail.com) - [GitHub](https://github.com/timu-ryan)
