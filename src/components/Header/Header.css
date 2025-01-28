@@ -1,7 +1,33 @@
-ul {
+.header {
+  background-color: #FFFFFF;
+  margin: 0 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 114px;
+}
+
+.header__nav {
   display: flex;
 }
 
-li {
-  width: 100px;
+.header__nav-list {
+  display: flex;
+}
+
+.header__nav-item {
+  margin-right: 32px;
+}
+
+.header__nav-item:last-child {
+  margin-right: 0;
+}
+
+.header__nav-list {
+  margin-right: 68px;
+}
+
+.header__nav-link{
+  display: flex;
+  align-items: center;
 }
