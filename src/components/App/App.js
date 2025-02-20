@@ -1,6 +1,7 @@
 import './App.css';
 import Header from '../Header/Header';
 import Item from '../Item/Item';
+import { Routes, Route } from 'react-router-dom';
 
 import { useState } from 'react';
 
@@ -21,6 +22,11 @@ function App() {
     <div className="app">
       <Header headerTitle={"carsики"} id={1} height={177}/>
       
+      <Routes>
+        <Route path="/" element={<Header headerTitle={"Главная"}/>} />
+        <Route path="/some-path" element={<Header headerTitle={"какой-то путь"}/>} />
+        <Route path="*" element={<Header headerTitle={"страница не найдена"}/>} />
+      </Routes>
       <button onClick={handleClick}>change</button>
 
       {
