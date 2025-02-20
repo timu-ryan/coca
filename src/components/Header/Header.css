@@ -1,7 +1,29 @@
-ul {
-  display: flex;
+.header {
+    margin: 87px 120px;
 }
 
-li {
-  width: 100px;
+.header__content-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -3px;
+    color: #1D1E25;
+    max-width: 740px;
+    margin-bottom: 114px;
+}
+
+.header__content-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    align-items: center;
+    letter-spacing: -1px;
+    color: #1D1E25;
+
 }

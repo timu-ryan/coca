@@ -1,8 +1,7 @@
 import './App.css';
-import Header from '../Header/Header';
-import Item from '../Item/Item';
+import Header from '../Nav/Nav';
 import { Routes, Route } from 'react-router-dom';
-
+import MainPage from '../MainPage/MainPage';
 import { useState } from 'react';
 
 const arr = [
@@ -20,14 +19,12 @@ function App() {
 
   return (
     <div className="app">
-      <Header headerTitle={"carsики"} id={1} height={177}/>
-      
       <Routes>
-        <Route path="/" element={<Header headerTitle={"Главная"}/>} />
+        <Route path="/" element={<MainPage />} />
         <Route path="/some-path" element={<Header headerTitle={"какой-то путь"}/>} />
         <Route path="*" element={<Header headerTitle={"страница не найдена"}/>} />
       </Routes>
-      <button onClick={handleClick}>change</button>
+      {/* <button onClick={handleClick}>change</button>
 
       {
         isActive 
@@ -37,7 +34,7 @@ function App() {
               )
             })
           : <Item name={arr[4]}/>
-      }
+      } */}
 
     </div>
   );
