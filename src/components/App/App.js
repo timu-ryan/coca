@@ -1,5 +1,5 @@
 import './App.css';
-import Header from '../Nav/Nav';
+import Header from '../MainPage/Sections/Nav/Nav';
 import { Routes, Route } from 'react-router-dom';
 import MainPage from '../MainPage/MainPage';
 import { useState } from 'react';
@@ -24,17 +24,7 @@ function App() {
         <Route path="/some-path" element={<Header headerTitle={"какой-то путь"}/>} />
         <Route path="*" element={<Header headerTitle={"страница не найдена"}/>} />
       </Routes>
-      {/* <button onClick={handleClick}>change</button>
-
-      {
-        isActive 
-          ? arr.map((eda, index) => {
-              return (
-                <Item key={index} name={eda}/>
-              )
-            })
-          : <Item name={arr[4]}/>
-      } */}
+      
 
     </div>
   );

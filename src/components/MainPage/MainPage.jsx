@@ -1,13 +1,15 @@
 import React from 'react'
-import Nav from '../Nav/Nav'
-import Header from '../Header/Header'
+import Nav from './Sections/Nav/Nav'
+import Header from './Sections/Header/Header'
+import Overview from './Sections/Overview/Overview'
+import './MainPage.css'
 
 const MainPage = (props) => {
     return (
-        <div>
+        <div className='container'>
             <Nav />
             <Header />
-            
+            <Overview />
         </div>
     )
 }

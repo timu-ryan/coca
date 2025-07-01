@@ -1,0 +1,90 @@
+.header {
+    padding-top: 87px;
+    padding-bottom: 141px;
+    margin: 0 120px;
+}
+
+.header__content-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -3px;
+    color: #1D1E25;
+    max-width: 740px;
+    margin-bottom: 114px;
+}
+
+.header__content-text {
+    display: flex;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 42px;
+    align-items: center;
+    letter-spacing: -1px;
+    color: #1D1E25;
+    max-width: 720px;
+    position: relative;
+    margin-left: 103px;
+}
+
+.header__content-text::before {
+    align-self: start;
+    top: 21px;
+    left: -103px;
+    position: absolute;
+    display: block;
+    width: 76px;
+    height: 1px;
+    background: #000000;
+    content: "";
+    margin-right: 27px;
+}
+
+.header__form {
+    margin-top: 69px;
+    display: flex;
+}
+
+.header__form div {
+    align-self: flex-end;
+    height: 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header__form input {
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: #7E8492;
+    border: none;
+    background: transparent;
+    width: 280px;
+}
+
+.header__form hr {
+    width: 280px;
+    border-bottom: 1px solid #CED1D8;
+}
+
+.header__form button {
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-left: 16px;
+    height: 56px;
+    width: 175px;
+    color: #FFFFFF;
+    background-color: #1D1E25;
+    border-radius: 28px;
+}
