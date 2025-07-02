@@ -16,28 +16,28 @@ function Overview() {
                 <div className='overview__grid'>
                     <div className='overview__grid-item'>
                         <div>
-                            <img className='overview__grid-item--icon' src={logo1}></img>
+                            <img className='overview__grid-item--icon' src={logo1} alt="icon"></img>
                         </div>
                         <h2 className='overview__grid-item--title'>Build your date fundamental</h2>
                         <p className="overview__grid-item--description">Build access to date, develop valuable business insights and drive revenue while maintaining full control over access and use of date at all times.</p>
                     </div>
                     <div className='overview__grid-item'>
                         <div>
-                            <img className='overview__grid-item--icon' src={logo2}></img>
+                            <img className='overview__grid-item--icon' src={logo2} alt="icon"></img>
                         </div>
                         <h2 className='overview__grid-item--title'>Measure more effective</h2>
                         <p className="overview__grid-item--description">Effectively measure people-based campaigns with the freedom to choose from best-of breed partners to optimize and drive media innovation.</p>
                     </div>
                     <div className='overview__grid-item'>
                         <div>
-                            <img className='overview__grid-item--icon' src={logo3}></img>
+                            <img className='overview__grid-item--icon' src={logo3} alt="icon"></img>
                         </div>
                         <h2 className='overview__grid-item--title'>Activate your date</h2>
                         <p className="overview__grid-item--description">Accurately address your specific audiences at scale across any channel, platform, publisher or network and safely translate date between identity space to improve results.</p>
                     </div>
                     <div className='overview__grid-item'>
                         <div>
-                            <img className='overview__grid-item--icon' src={logo4}></img>
+                            <img className='overview__grid-item--icon' src={logo4} alt="icon"></img>
                         </div>
                         <h2 className='overview__grid-item--title'>Strengthen consumer privacy</h2>
                         <p className="overview__grid-item--description">Protect your customer date with leading privacy-preserving technologies and advanced techniques to minimize date movement while still enabling insight generation.</p>

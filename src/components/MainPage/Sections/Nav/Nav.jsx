@@ -6,7 +6,7 @@ const Nav = (props) => {
   return (
     <header className='nav'>
       <a className="nav__logo">
-        <img src={Logo}></img>
+        <img src={Logo}  alt="COCA logo"></img>
       </a>
 
       <nav className='nav__nav'>

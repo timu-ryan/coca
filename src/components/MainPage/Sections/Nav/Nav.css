@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 /*//////////////////////////////////*/
 .nav {
   height: 114px;
-  margin: 26px 120px 22px 120px;
+  margin: 0px 120px 22px 120px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -92,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   line-height: 26px;
   color: #1D1E25;
+  transition: all 0.3s;
 }
 
 .nav__nav-item:last-child {
@@ -102,10 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 24px;
 }
 
-.nav__nav-item--link {
-  transition: all 0.3s;
-}
-
-.nav__nav-item--link:hover {
+.nav__nav-item:hover {
     cursor: pointer;
+    transform: scale(1.1);
 }
